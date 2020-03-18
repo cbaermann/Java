@@ -9,6 +9,7 @@ public class BasicsTest {
         // testNumber.Sum();
 
         int[] testArr = {4,5,1,2,7,-5,-17,17};
-        testNumber.iterateArry(testArr);
+        // testNumber.iterateArry(testArr);
+        testNumber.findMax(testArr);
     }
 }

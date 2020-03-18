@@ -15,4 +15,12 @@ public class Basics {
             }
         }
     }
+
+    public void Sum() {
+        int sum = 0;
+        for(int i = 1; i < 256; i++) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }
 }

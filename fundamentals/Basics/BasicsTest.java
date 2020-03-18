@@ -4,6 +4,8 @@ public class BasicsTest {
 
         // testNumber.printTo225();
 
-        testNumber.printOdd225();
+        // testNumber.printOdd225();
+
+        testNumber.Sum();
     }
 }

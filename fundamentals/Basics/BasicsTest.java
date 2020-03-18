@@ -6,6 +6,9 @@ public class BasicsTest {
 
         // testNumber.printOdd225();
 
-        testNumber.Sum();
+        // testNumber.Sum();
+
+        int[] testArr = {4,5,1,2,7,-5,-17,17};
+        testNumber.iterateArry(testArr);
     }
 }

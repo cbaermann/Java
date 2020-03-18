@@ -10,6 +10,9 @@ public class BasicsTest {
 
         int[] testArr = {4,5,1,2,7,-5,-17,17};
         // testNumber.iterateArry(testArr);
-        testNumber.findMax(testArr);
+        // testNumber.findMax(testArr);
+
+        int[] testAvg = {2,10,3};
+        testNumber.average(testAvg);
     }
 }

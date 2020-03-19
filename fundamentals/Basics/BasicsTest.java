@@ -15,6 +15,7 @@ public class BasicsTest {
         int[] testAvg = {2,10,3};
         // testNumber.average(testAvg);
 
-        testNumber.oddArray();
+        // testNumber.oddArray();
+        testNumber.greaterThanY(testArr, 3);
     }
 }

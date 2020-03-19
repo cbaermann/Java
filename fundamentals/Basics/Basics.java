@@ -60,4 +60,14 @@ public class Basics {
         }
         System.out.println(y);
     }
+
+    public void greaterThanY(int[] arr, int y) {
+        int count = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] > y) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
 }

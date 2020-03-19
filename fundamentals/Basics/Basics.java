@@ -50,4 +50,14 @@ public class Basics {
 
         System.out.println(avg);
     }
+
+    public void oddArray() {
+        ArrayList<Integer> y = new ArrayList<Integer>();
+        for(int i = 1; i < 256; i++) {
+            if(i %2 == 1){
+                y.add(i);
+            }
+        }
+        System.out.println(y);
+    }
 }

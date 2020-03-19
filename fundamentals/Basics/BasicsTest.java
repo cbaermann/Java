@@ -13,6 +13,8 @@ public class BasicsTest {
         // testNumber.findMax(testArr);
 
         int[] testAvg = {2,10,3};
-        testNumber.average(testAvg);
+        // testNumber.average(testAvg);
+
+        testNumber.oddArray();
     }
 }

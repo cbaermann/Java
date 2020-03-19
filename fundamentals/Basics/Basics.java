@@ -70,4 +70,13 @@ public class Basics {
         }
         System.out.println(count);
     }
+
+    public void squareValues(int[] arr) {
+        for(int i = 0; i < arr.length; i ++) {
+            int temp = arr[i] * 2;
+            arr[i] = temp;
+        }
+        System.out.println(arr);
+    }
+    
 }

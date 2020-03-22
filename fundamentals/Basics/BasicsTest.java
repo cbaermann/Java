@@ -19,6 +19,7 @@ public class BasicsTest {
         // testNumber.greaterThanY(testArr, 3);
 
         int[] squarArr = {2,4,6};
-        testNumber.squareValues(testAvg);
+        // testNumber.squareValues(testAvg);
+        testNumber.eliminateNegative(testArr);
     }
 }

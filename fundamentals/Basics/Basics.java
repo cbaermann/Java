@@ -78,5 +78,16 @@ public class Basics {
         }
         System.out.println(arr);
     }
+
+    public void eliminateNegative(int[] arr) {
+        ArrayList<Integer> x = new ArrayList<Integer>();
+        for(int i = 0; i < arr.length; i++) {
+            if( arr[i] < 0) {
+                arr[i] = 0;
+            }
+            x.add(arr[i]);
+        }
+        System.out.println(x);
+    }
     
 }

@@ -20,6 +20,9 @@ public class BasicsTest {
 
         int[] squarArr = {2,4,6};
         // testNumber.squareValues(testAvg);
-        testNumber.eliminateNegative(testArr);
+        // testNumber.eliminateNegative(testArr);
+        testNumber.maxMinAvg(testArr);
     }
+
+
 }

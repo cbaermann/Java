@@ -90,4 +90,22 @@ public class Basics {
         System.out.println(x);
     }
     
+    public void maxMinAvg(int[] arr) {
+        ArrayList<Integer> x = new ArrayList<Integer>();
+        int max = arr[0];
+        int min = arr[0];
+        int sum = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] > max) {
+                max = arr[i];
+            }
+            if(arr[i] < min ) {
+                min = arr[i];
+            }
+            sum = sum + arr[i];
+        }
+        int avg = sum/arr.length;
+        Collections.addAll(x, min, max, avg);
+        System.out.println(x);
+    }
 }

@@ -108,4 +108,17 @@ public class Basics {
         Collections.addAll(x, min, max, avg);
         System.out.println(x);
     }
+
+    public void shiftingValues(int[] arr) {
+        ArrayList<Integer> x = new ArrayList<Integer>();
+        for(int i = 0; i < arr.length; i++){
+            if(i == arr.length - 1) {
+                x.add(0);
+            }
+            else{
+                x.add(arr[i+1]);
+            }
+        }
+        System.out.println(x);
+    }
 }

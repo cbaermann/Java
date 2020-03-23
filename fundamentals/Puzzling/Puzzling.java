@@ -30,4 +30,21 @@ public class Puzzling {
         System.out.println((shuffleNames));
     }
 
+    public void shuffleABC(String[] arr) {
+        ArrayList<String> newABC = new ArrayList<String>();
+        for(int i = 0; i < arr.length; i++){
+            newABC.add(arr[i]);
+        }
+
+        Collections.shuffle(newABC);
+        System.out.println("First letter of shuffled array is: " + newABC.get(0));
+        System.out.println("Last letter of shuffled array is: " + newABC.get(25));
+        String sample = newABC.get(0);
+
+        if("AEIOU".indexOf(sample) > 0) {
+            System.out.println("WOW! The first letter happens to be a vowel");
+        }
+
+    }
+
 }

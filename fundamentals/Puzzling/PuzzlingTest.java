@@ -6,7 +6,10 @@ public class PuzzlingTest {
         
         String[] testNames = {"Nancy", "Jinichi", "Fujibayashi", "Momochi", "Ishiwaka"};
 
+        String[] abcString = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+
         // testData.sumAndGreaterThan10(testArr);
-        testData.shuffleNames(testNames);
+        // testData.shuffleNames(testNames);
+        testData.shuffleABC(abcString);
     }
 }

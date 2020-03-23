@@ -70,4 +70,31 @@ public class Puzzling {
         System.out.println("The max value is: " + rand.get(9));
     }
 
+    public void randomString(){
+        Random rand = new Random();
+        StringBuilder randString = new StringBuilder();
+        String alphaNumeric = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        for(int i = 0; i < 5; i++){
+            randString.append(alphaNumeric.charAt(rand.nextInt(alphaNumeric.length())));
+        }
+        String finalString = randString.toString();
+        System.out.println(finalString);
+    }
+
+    public void randomStringOfStrings(){
+    Random rand = new Random();
+    StringBuilder randString = new StringBuilder();
+    ArrayList<String> randList = new ArrayList<String>();
+    String alphaNumeric = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    for(int i = 0; i <10; i++){
+        for(int j = 0; j < 5; j++){
+            randString.append(alphaNumeric.charAt(rand.nextInt(alphaNumeric.length())));
+        }
+        String finalString = randString.toString();
+        randList.add(finalString);
+        randString.setLength(0);
+    }
+    System.out.println(randList);       
+    }
+
 }

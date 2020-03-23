@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Puzzling {
 
@@ -45,6 +47,27 @@ public class Puzzling {
             System.out.println("WOW! The first letter happens to be a vowel");
         }
 
+    }
+
+    public void randNumber(){
+        ArrayList<Integer> rand = new ArrayList<Integer>();
+        for(int i = 0; i < 10; i ++) {
+            int num = ThreadLocalRandom.current().nextInt(55, 101);
+            rand.add(num);
+        }
+        System.out.println(rand);
+    }
+
+    public void randMinMax() {
+        ArrayList<Integer> rand = new ArrayList<Integer>();
+        for(int i = 0; i < 10; i++){
+            int num = ThreadLocalRandom.current().nextInt(55, 101);
+            rand.add(num);
+        }
+        Collections.sort(rand);
+        System.out.println(rand);
+        System.out.println("The minimum value is: " + rand.get(0));
+        System.out.println("The max value is: " + rand.get(9));
     }
 
 }

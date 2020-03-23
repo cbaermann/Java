@@ -11,5 +11,8 @@ public class PuzzlingTest {
         // testData.sumAndGreaterThan10(testArr);
         // testData.shuffleNames(testNames);
         testData.shuffleABC(abcString);
+        testData.randNumber();
+        testData.randMinMax();
     }
+
 }

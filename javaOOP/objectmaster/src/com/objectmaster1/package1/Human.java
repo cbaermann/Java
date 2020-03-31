@@ -1,11 +1,11 @@
 package com.objectmaster1.package1;
 
 public class Human {
-	private String name = "";
-	private int health = 100;
-	private int strength = 3;
-	private int stealth = 3;
-	private int intelligence = 3;
+	protected String name = "";
+	protected int health = 100;
+	protected int strength = 3;
+	protected int stealth = 3;
+	protected int intelligence = 3;
 	
 	//constructors
 	public Human() {
@@ -57,6 +57,7 @@ public class Human {
 		this.health = health;
 	}
 	
+	//Methods
 	public void attack(Human human) {
 		human.setHealth(human.getHealth() - strength);
 		System.out.println(this.getName() + " attacked " + human.getName() + " for " + this.getStrength() + " damage ");

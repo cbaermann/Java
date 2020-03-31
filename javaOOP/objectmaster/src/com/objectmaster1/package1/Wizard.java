@@ -7,6 +7,8 @@ public class Wizard extends Human{
 	}
 	
 	public Wizard(String name) {
+		this.health = 50;
+		this.intelligence = 8;
 		this.name = name;
 	}
 	
@@ -18,6 +20,8 @@ public class Wizard extends Human{
 	}
 	
 	public void fireball(Human human) {
-		human.setHealth(human.getHealth() - (this.intelligence * 3));
+		human.setHealth(human.getHealth()-(intelligence*3));
+		System.out.println("Burn with the sun's fury!!!");
+		System.out.println("(" + human.getName() + " has taken " + intelligence*3 + " points of damage!)");
 	}
 }

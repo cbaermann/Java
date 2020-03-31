@@ -62,4 +62,5 @@ public class Human {
 		human.setHealth(human.getHealth() - strength);
 		System.out.println(this.getName() + " attacked " + human.getName() + " for " + this.getStrength() + " damage ");
 	}
+
 }

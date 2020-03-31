@@ -9,7 +9,9 @@ public class Samurai extends Human {
 	}
 	
 	public Samurai(String name) {
+		this.health = 200;
 		this.name = name;
+		samuraiCount += 1;
 	}
 	
 	public void deathBlow(Human human) {

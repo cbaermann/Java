@@ -54,7 +54,7 @@ public class BankAccount {
 	}
 	
 	public void accountDeposit(String type, Double depositAmount) {
-		if(type == "checking" || type == "Checking") {
+		if(type.equals("checking") || type.equals("Checking")) {
 			setCheckingBalance(getCheckingBalance() + depositAmount);
 			totalMoney += depositAmount;
 		}

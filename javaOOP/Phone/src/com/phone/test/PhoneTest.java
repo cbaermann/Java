@@ -1,0 +1,22 @@
+package com.phone.test;
+
+import com.phone.Galaxy;
+import com.phone.IPhone;
+
+public class PhoneTest {
+	public static void main(String[] args) {
+		Galaxy s9 = new Galaxy("S9", 99, "Verision", "Ring Ring Ring!");
+		IPhone iphoneTen = new IPhone("X", 100, "T-Movile", "Buzz Buzz");
+		
+		s9.displayInfo();
+		System.out.println(s9.ring());
+		System.out.println(s9.unlock());
+		
+		iphoneTen.displayInfo();
+		System.out.println(iphoneTen.ring());
+		System.out.println(iphoneTen.unlock());
+
+
+	}
+
+}

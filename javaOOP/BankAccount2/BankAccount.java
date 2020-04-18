@@ -118,7 +118,6 @@ public class BankAccount{
                 totalMoney -= withdrawlAmount;
             }
         }
-
     }
 
     public void balance(){

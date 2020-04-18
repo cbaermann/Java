@@ -6,7 +6,7 @@ public class BankAccountTest{
 
         user1.accountDeposit(100.00, "Checking");
         // user1.accountDeposit(100.00, "Savings");
-        user1.accountWithdraw(150.00, "Checking");
+        user1.accountWithdraw(50.00, "Checking");
         // user1.accountDeposit(50.00, "Savings");
         // user1.accountDeposit(100.00, "Savings");
         // user1.accountWithdraw(50.00, "Checking");

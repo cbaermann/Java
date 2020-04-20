@@ -28,4 +28,21 @@ public class DLL {
             current = current.next;
         }
     }
+    
+    public void printValuesBackward() {
+    	Node current = this.tail;
+    	while(current != null) {
+    		System.out.print(current.value);
+    		current = current.previous;
+    	}
+    }
+    
+    public Node pop() {
+    	if(this.tail == null) {
+    		System.out.print("No values");
+    	}
+    	Node lastNode = this.tail;
+    	this.tail = lastNode.previous;
+    	return lastNode;
+    }
 }

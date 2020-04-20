@@ -18,6 +18,9 @@ public class DLLTest {
         dll.push(n5);
         dll.push(n6);
         
+//        dll.printValuesForward();
+//        dll.printValuesBackward();
+        dll.pop();
         dll.printValuesForward();
         
     }

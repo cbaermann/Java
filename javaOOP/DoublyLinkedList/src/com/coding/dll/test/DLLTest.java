@@ -21,7 +21,7 @@ public class DLLTest {
 //        dll.printValuesForward();
 //        dll.printValuesBackward();
         dll.pop();
-        dll.printValuesForward();
+//        dll.printValuesForward();
         
     }
 }

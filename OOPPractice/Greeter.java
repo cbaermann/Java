@@ -11,7 +11,7 @@ public class Greeter {
         return createGreeting(firstName + " " + lastName);
     }
 
-    public String createGreeting(String toBeGreeted) {
+    private String createGreeting(String toBeGreeted) {
         return "Hello " + toBeGreeted;
     }
 }

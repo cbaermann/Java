@@ -43,6 +43,8 @@ public class DLL {
     	}
     	Node lastNode = this.tail;
     	this.tail = lastNode.previous;
+    	System.out.println(lastNode.value);
     	return lastNode;
     }
+    
 }

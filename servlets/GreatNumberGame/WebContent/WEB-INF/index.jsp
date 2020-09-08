@@ -21,12 +21,12 @@
 					</div>
 			<% } else if(theResponse == "low"){%>
 	
-					<div id="low">
-						<h1 class="padding">Too Low!</h1>
+					<div id="tooLow">
+						<h1>Too Low!</h1>
 					</div>
 			<% } else if(theResponse == "high"){ %>
-					<div id="high">
-						<h1 class="padding">Too High!</h1>
+					<div id="tooHigh">
+						<h1>Too High!</h1>
 					</div>
 			<% } %>
 		</div>
